@@ -6,6 +6,7 @@ import time
 import qrcode
 from PIL import Image,ImageDraw,ImageFont
 import traceback
+import keypad
 
 font_dir = '/usr/share/fonts/truetype/nanum'
 
@@ -22,10 +23,10 @@ try:
 
     Image_Palette = Image.open('background.bmp')
     Image_Palette = Image_Palette.convert('1')
-    panel.getbuffer(Image_Palette)
+    panel.display(panel.getbuffer(Image_Palette))
 
     print("Plz Input Value")
-    value = 10
+    value = keypad.activation()
 
     qr_code.add_data(value)
     qr_code.make()
