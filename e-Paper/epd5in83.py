@@ -195,30 +195,6 @@ class EPD:
         for i in range(0, 134400):
             self.send_data(array[i])
 
-        #
-        # for i in range(0, self.width // 4 * self.height):
-        #     temp1 = image[i]
-        #     j = 0
-        #
-        #     while j < 4:
-        #         if (temp1 & 0xC0) == 0xC0:
-        #             temp2 = 0x03
-        #         else:
-        #             temp2 = 0x00
-        #
-        #         temp2 = temp2 << 4
-        #         temp1 = temp1 << 2
-        #
-        #         if(temp1 & 0xC0) == 0xC0:
-        #             temp2 |= 0x03
-        #         else:
-        #             temp2 |= 0x00
-        #
-        #         temp1 = temp1 << 2
-        #         self.send_data(temp2)
-        #
-        #         j += 2
-
         print("%s" % (time.time() - start_time))
         self.send_command(DISPLAY_REFRESH)
         epdconfig.delay_ms(100)
