@@ -26,6 +26,7 @@ liveqr은 구매자 중심의 UX를 갖춘 Payment 서비스 프로토 타입입
 - Python Package : `requirements.txt 참조`
 
 ## Dev-Log
+- 2019-02-05 Keypad 입력 솔루션 완성 및 기존 E-Paper 디스플레이 부분과 연결
 - 2019-02-04 E-Paper 초기 Loading시에 걸리는 시간 단축 `60초 -> 35초`
 - 2019-02-03 E-Paper Demo Script와 qrcode Script Combine
 - 2019-02-02 개발 시작
