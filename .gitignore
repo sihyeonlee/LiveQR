@@ -14,3 +14,5 @@ Web/__pycache__/
 Web/pip/
 
 Web/keydata\.py
+
+v0\.1/keydata\.py
