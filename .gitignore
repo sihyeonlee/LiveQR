@@ -6,3 +6,11 @@ Image_Test/pip/
 Keypad/\.idea/
 
 Keypad/pip/
+
+Web/\.idea/
+
+Web/__pycache__/
+
+Web/pip/
+
+Web/keydata\.py
