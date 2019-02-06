@@ -8,11 +8,9 @@ def connection(port, baudrate):
 
 
 def read_data(serial):
-    raw_data = serial.readline()
-    len = raw_data.index(13)            # Index '\r'
-    int_data = int(raw_data[0:len])
+    data = int(serial.readline().decode('utf-8'))
 
-    return int_data
+    return data
 
 
 def mapping(num, map):
