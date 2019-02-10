@@ -38,6 +38,7 @@ liveqr은 구매자 중심의 UX를 갖춘 Payment 서비스 프로토 타입입
     - KaKaoPay API를 이용하여 결제 링크 return
 
 ## Dev-Log
+- 2019-02-10 몇 가지 변수 수정
 - 2019-02-06 카카오페이 API 연결 및 V0.1 배포
 - 2019-02-05 Keypad 입력 솔루션 완성 및 기존 E-Paper 디스플레이 부분과 연결
 - 2019-02-04 E-Paper 초기 Loading시에 걸리는 시간 단축 `60초 -> 35초`
